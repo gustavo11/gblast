@@ -2,7 +2,6 @@
 
 ### Requirements (Perl libraries)
 ```
-use strict;
 use Bio::Graphics;
 use Bio::SeqIO;
 use Bio::SeqFeature::Generic;
