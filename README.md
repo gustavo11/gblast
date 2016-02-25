@@ -1,6 +1,6 @@
 # gblast
 
-## Requirements (Perl libraries)
+### Requirements (Perl libraries)
 ```
 use strict;
 use Bio::Graphics;
@@ -8,7 +8,7 @@ use Bio::SeqIO;
 use Bio::SeqFeature::Generic;
 use Getopt::Std;
 ```
-
+### Usage
 ```
 v0.7
 
