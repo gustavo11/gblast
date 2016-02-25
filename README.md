@@ -20,7 +20,7 @@ length of subject sequence associated with each HSP.
 -e quick way to set an overall cutoff for e-value. The e-value thresholds in 
 the "group file" have precedence over this parameter.
 
--c <coord. tolerance>   . Indicates that HSP with higher scores should have 
+-c <coord. tolerance>. Indicates that HSP with higher scores should have 
 priority during rendering.HSPs of lower score will not be rendered if they are <coord. tolerance> nt 
 apart from HSPs with higher score. distance = max( start - start', end - end' )
 
