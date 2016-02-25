@@ -1,6 +1,6 @@
 # gblast
 
-<code>
+```
 v0.7
 
 gblast -q <FASTA of query sequences>  -r <m8 blast file> [ -s <FASTA of subject sequences> ] [-o <output png file>] [-w <width>] [-e <e-value threshold> ] [-c <coord. tolerance>] [ -g <group file>]
@@ -25,11 +25,9 @@ The definition file is a tab delimited file using the following format:
 <group name>    gi\|74584587\|809998    <color ex.:red,green,blue>      <e-value threshold ex.:0.1, 0.000001>
 
 Obs.: Please escape metacharacters in the regex, such as the '|' in the previous example
-</code>
 
 Output description:
 -------------------
-<code>
 Description of items in the red caption associated to each HSP:
 qc = coordinates in the query sequence.
 sc = coordinates in the subject sequence.
@@ -38,4 +36,4 @@ s  = score.
 l  = length of alignment in the query sequence.
 e  = e-value.
 %i = percentage of identity of the aligned fragment.
-</code>
+```
