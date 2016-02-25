@@ -1,12 +1,13 @@
 # gblast
 
 ## Requirements (Perl libraries)
+```
 use strict;
 use Bio::Graphics;
 use Bio::SeqIO;
 use Bio::SeqFeature::Generic;
 use Getopt::Std;
-
+```
 
 ```
 v0.7
