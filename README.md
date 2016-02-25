@@ -3,7 +3,12 @@
 ```
 v0.7
 
-gblast -q <FASTA of query sequences>  -r <m8 blast file> [ -s <FASTA of subject sequences> ] [-o <output png file>] [-w <width>] [-e <e-value threshold> ] [-c <coord. tolerance>] [ -g <group file>]
+gblast -q <FASTA of query sequences>  -r <m8 blast file> 
+
+[ -s <FASTA of subject sequences> ] [-o <output png file>] [-w <width>] 
+
+[-e <e-value threshold> ] [-c <coord. tolerance>] [ -g <group file>]
+```
 
 -o output file. default output name = <input file name>_[<group info>|<e_value>]_<coord. tolerance>.svg
 
@@ -36,4 +41,3 @@ s  = score.
 l  = length of alignment in the query sequence.
 e  = e-value.
 %i = percentage of identity of the aligned fragment.
-```
